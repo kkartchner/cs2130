@@ -27,3 +27,12 @@ Computed hash is: 21
 
 Enter the sentence to be hashed or 'q' to exit:
 ``` 
+## Program3 - Sequence:
+Generates and displays the following binary sequence:
+11110000111000110010
+
+### Output
+```
+11110000111000110010
+```
+

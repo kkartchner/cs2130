@@ -41,7 +41,7 @@ def hash_sentence(sentence: str) -> int:  # ord(a)=97, ord(z)=122
     sum_of_values = 0
     for c in sentence:  # sum the numeric value of each letter in the sentence
         # (use A=a=1, B=b=2 ... Z=z=26, space=31)
-        numeric_value = ord(c.lower()) - 96
+        numeric_value = ord(c.lower()) - 96 # ord('a') is 97 so sub 96 to make it 1 
         if 1 <= numeric_value and numeric_value <= 26:
             sum_of_values += numeric_value
         elif c == ' ':
