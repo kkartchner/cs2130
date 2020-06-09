@@ -52,5 +52,5 @@ def hash_sentence(sentence: str) -> int:  # ord(a)=97, ord(z)=122
 
     return sum_of_values % 31  # apply the hash function f(n) = sum mod 31.
 
-
-main()
+if __name__ == '__main__':
+    main()
