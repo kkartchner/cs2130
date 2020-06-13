@@ -31,8 +31,26 @@ Enter the sentence to be hashed or 'q' to exit:
 Generates and displays the following binary sequence:
 11110000111000110010
 
-### Output
+### Output:
 ```
 11110000111000110010
 ```
+## Program4 - Base Conversions
+Prompts the user for a positive decimal value then displays its value in base 2, base 8, and in base 16. 
+Continues to prompt the user until they enter in the sentinel value 'q' to exit.
 
+### Example Output:
+```
+Welcome to BaseConversions!
+Enter a positive decimal value to see what it is in base 2, base 8, and base 16.
+Type in 'q' to exit at any point.
+
+Input a decimal: 138
+138 in base 2: 10001010
+138 in base 8: 212
+138 in base 16: 8A
+
+Input a decimal: q
+
+Exiting... Have a nice day!
+```
