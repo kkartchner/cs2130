@@ -13,8 +13,7 @@ AnB = {3}
 A-B = {1, 5, 6, 8}
 ```
 ## Program2 - Sentence Hashing:
-Prompts the user for a "sentence" to be hashed and then displays the result.
-Continues to prompt user until they enter in sentinel value 'q' to exit.
+Prompts the user for a "sentence" to be hashed and then displays the result. Continues to prompt user until they enter in sentinel value 'q' to exit.
 
 ### Example Output:
 ```
@@ -51,6 +50,29 @@ Input a decimal: 138
 138 in base 16: 8A
 
 Input a decimal: q
+
+Exiting... Have a nice day!
+```
+## Program5 - Compound Propositions
+Prompts the user for a compound proposition composed of the variables p and q, then prints the truth table for the compound proposition
+### Example Output:
+```
+Welcome to Compound Propositions!
+Answer three questions to generate a compound proposition and its associated truth table.
+If at anytime you decide you have better things to do, enter 'q' to exit.
+
+Do you want to AND or OR the variables (and/or)? and
+Do you want to NOT p (y/n)? y
+Do you want to NOT q (y/n)? y
+
+Answer:
+p  q  ~pA~q
+T  T    F
+T  F    F
+F  T    F
+F  F    T
+
+Do you want to AND or OR the variables (and/or)? q  
 
 Exiting... Have a nice day!
 ```
