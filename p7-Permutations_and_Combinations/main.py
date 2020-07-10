@@ -4,10 +4,11 @@ from math import factorial
 from functools import reduce
 
 
-def main():
+def main() -> None:
     """Prompts the user for n and r values and then computes and displays the
     combinations and permutations of the two.
     """
+
     print("\nWelcome to Permutations and Combinations!")
     print("\nEnter a postive integer for n and a value for r (that is less"
           + " than n) to compute the permutations and combinations of the two."
@@ -29,7 +30,7 @@ def main():
         print_answer(True, n, r, False)
 
 
-def get_positive_integer(message, sentinel_value='q'):
+def get_positive_integer(message: str, sentinel_value='q') -> int:
     """Prompts the user with a message until they provide a positive 
     integer value or exits if sentinel value is entered.
 
@@ -40,7 +41,11 @@ def get_positive_integer(message, sentinel_value='q'):
     
     Returns:
         int: The positive integer value entered by the user.
+
+    Raises:
+        ValueError: If user input is not a positive integer
     """
+
     user_input = input(message)
     if user_input == sentinel_value:
         exit_program()
