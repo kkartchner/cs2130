@@ -136,7 +136,8 @@ combinations and permutations of the two.
 ```
 Welcome to Permutations and Combinations!
 
-Enter a postive integer for n and a value for r (that is less than n) to compute the permutations and combinations of the two. At any time, enter 'q' to exit.
+Enter a postive integer for n and a value for r (that is less than n) to compute 
+the permutations and combinations of the two. At any time, enter 'q' to exit.
 
 Enter a value for n: 23
 Enter a value for r: 6
