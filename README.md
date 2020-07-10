@@ -129,3 +129,25 @@ a|b|c|d|e|(( c + ~d ) * b ) * ~( d + a * e )
 
 Exiting... Have a nice day!
 ```
+## Program6 - Permutations and Combinations
+Prompts the user for n and r values and then computes and displays the
+combinations and permutations of the two.
+### Example Output:
+```
+Welcome to Permutations and Combinations!
+
+Enter a postive integer for n and a value for r (that is less than n) to compute the permutations and combinations of the two. At any time, enter 'q' to exit.
+
+Enter a value for n: 23
+Enter a value for r: 6
+Permutation:
+ P(23,6)w/repeats: 148,035,889
+ P(23,6)w/o repeats: 72,681,840
+Combination:
+ C(23,6)w/repeats: 376,740
+ C(23,6)w/o repeats: 100,947
+
+Enter a value for n: q
+
+Exiting... Have a nice day!
+```
