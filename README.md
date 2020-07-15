@@ -160,7 +160,7 @@ Exiting... Have a nice day!
 ## Program8 - Monty Hall
 Simulates the Monty Hall 3 doors game and gives the percentage of wins
 for when the contestant switches vs. when they don't switch.
-### Example Output
+### Example Output:
 ```
 Welcome to the Monty Hall 3 Doors Game simulator!
 
