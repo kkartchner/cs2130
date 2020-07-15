@@ -1,8 +1,10 @@
 # cs2130
-Programming assignments from my Weber State Computational Structures (CS 2130) class, taken Summer 2020 semester.
+Programming assignments from my Weber State Computational Structures (CS 2130) class, 
+taken Summer 2020 semester.
 
 ## Program1 - Set Operations:
-Calculates the union, intersection, and difference of two hard coded sets and displays the results using set notation.
+Calculates the union, intersection, and difference of two hard coded sets and
+displays the results using set notation.
 
 ### Output:
 ```
@@ -13,7 +15,8 @@ AnB = {3}
 A-B = {1, 5, 6, 8}
 ```
 ## Program2 - Sentence Hashing:
-Prompts the user for a "sentence" to be hashed and then displays the result. Continues to prompt user until they enter in sentinel value 'q' to exit.
+Prompts the user for a "sentence" to be hashed and then displays the result.
+Continues to prompt user until they enter in sentinel value 'q' to exit.
 
 ### Example Output:
 ```
@@ -35,7 +38,8 @@ Generates and displays the following binary sequence:
 11110000111000110010
 ```
 ## Program4 - Base Conversions
-Prompts the user for a positive decimal value then displays its value in base 2, base 8, and in base 16. 
+Prompts the user for a positive decimal value then displays its value in base 2,
+base 8, and in base 16. 
 Continues to prompt the user until they enter in the sentinel value 'q' to exit.
 
 ### Example Output:
@@ -54,7 +58,8 @@ Input a decimal: q
 Exiting... Have a nice day!
 ```
 ## Program5 - Compound Propositions
-Prompts the user for a compound proposition composed of the variables p and q, then prints the truth table for the compound proposition
+Prompts the user for a compound proposition composed of the variables p and q, 
+then prints the truth table for the compound proposition
 ### Example Output:
 ```
 Welcome to Compound Propositions!
@@ -136,7 +141,8 @@ combinations and permutations of the two.
 ```
 Welcome to Permutations and Combinations!
 
-Enter a postive integer for n and a value for r (that is less than n) to compute the permutations and combinations of the two. At any time, enter 'q' to exit.
+Enter a postive integer for n and a value for r (that is less than n) to compute 
+the permutations and combinations of the two. At any time, enter 'q' to exit.
 
 Enter a value for n: 23
 Enter a value for r: 6
@@ -148,6 +154,20 @@ Combination:
  C(23,6)w/o repeats: 100,947
 
 Enter a value for n: q
+
+Exiting... Have a nice day!
+```
+## Program8 - Monty Hall
+Simulates the Monty Hall 3 doors game and gives the percentage of wins
+for when the contestant switches vs. when they don't switch.
+### Example Output
+```
+Welcome to the Monty Hall 3 Doors Game simulator!
+
+You won 66,954 out of 100,000 times (66.95400%) by switching.
+You won 33,112 out of 100,000 times (33.11200%) by NOT switching.
+
+Run another simulation? (y/n)? n
 
 Exiting... Have a nice day!
 ```

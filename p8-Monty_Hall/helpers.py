@@ -1,4 +1,4 @@
-__author__ = "Ky Kartchner"
+_author__ = "Ky Kartchner"
 
 
 def get_user_choice(message: str, choices: [str], sentinel_value='q') -> str:
