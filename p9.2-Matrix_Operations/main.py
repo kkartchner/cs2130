@@ -33,8 +33,9 @@ def main():
                                           matrix_dictionary[second_matrix_key]),
                              f"{first_matrix_key} + {second_matrix_key}")
             elif operation == 'M':
-                # print(multiply_matrices(matrix_dictionary[first_matrix_key],
-                #                         matrix_dictionary[second_matrix_key]))
+                print_matrix(multiply_matrices(matrix_dictionary[first_matrix_key],
+                                               matrix_dictionary[second_matrix_key]),
+                             f"{first_matrix_key} x {second_matrix_key}")
                 pass
         else:
             full_operation = 'add' if operation == 'A' else 'multiply'
@@ -78,13 +79,16 @@ def add_matrices(first_matrix, second_matrix):
 
 
 def multiply_matrices(first_matrix, second_matrix):
-    result_matrix = [] # m1 X n2: len(first_matrix) X len(second_matrix[0])
-    # for y in range(len(first_matrix)):
-    #     for x in range(len(first_matrix[y])):
-    #         sum = first_matrix[y][x]
-    #         g
+    result_matrix = []  # m1 X n2: len(first_matrix) X len(second_matrix[0])
+    for y in range(len(first_matrix)):
+        row = []
+        for x in range(len(second_matrix[0])):
+            entry = 0
+            for k in range(len(first_matrix[0])):
+                entry += (first_matrix[y][k] * second_matrix[k][x])
+            row.append(entry)
 
-    
+        result_matrix.append(row)
 
     return result_matrix
 
