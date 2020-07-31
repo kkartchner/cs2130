@@ -134,7 +134,7 @@ a|b|c|d|e|(( c + ~d ) * b ) * ~( d + a * e )
 
 Exiting... Have a nice day!
 ```
-## Program6 - Permutations and Combinations
+## Program7 - Permutations and Combinations
 Prompts the user for n and r values and then computes and displays the
 combinations and permutations of the two.
 ### Example Output:
