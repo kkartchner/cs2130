@@ -171,3 +171,70 @@ Run another simulation? (y/n)? n
 
 Exiting... Have a nice day!
 ```
+## Program9 - Matrix Operations
+Prompt the user to select two of the four hard-coded matrices and
+to select whether to multiply or add the matrices together.
+### Example Output:
+```
+Welcome to Matrix Operations!
+
+Select two of the matrices below, then select if you want to add or multiply them.
+Enter 'q' at any time to exit.
+
+A: 4 -1
+   2 8
+
+B: 2 3 9
+   -3 3 7
+
+C: 1 -4
+   9 3
+   -8 2
+
+D: 3 8 3
+   -2 7 1
+   0 -1 8
+
+Select the first matrix (A/B/C/D)? a
+Select the second matrix (A/B/C/D)? b
+Would you like to add, or multiply them? (A/M)? m
+A: 4 -1
+   2 8
+
+B: 2 3 9
+   -3 3 7
+
+A x B: 11 9 29
+       -20 30 74
+
+Select the first matrix (A/B/C/D)? d
+Select the second matrix (A/B/C/D)? d
+Would you like to add, or multiply them? (A/M)? a
+D: 3 8 3
+   -2 7 1
+   0 -1 8
+
+D: 3 8 3
+   -2 7 1
+   0 -1 8
+
+D + D: 6 16 6
+       -4 14 2
+       0 -2 16
+
+Select the first matrix (A/B/C/D)? a
+Select the second matrix (A/B/C/D)? d
+Would you like to add, or multiply them? (A/M)? m
+A: 4 -1
+   2 8
+
+D: 3 8 3
+   -2 7 1
+   0 -1 8
+
+Invalid. You cannot multiply  A and D together
+
+Select the first matrix (A/B/C/D)? q
+
+Exiting... Have a nice day!
+```
