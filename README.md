@@ -238,3 +238,17 @@ Select the first matrix (A/B/C/D)? q
 
 Exiting... Have a nice day!
 ```
+## Program10 - Tree Traversal
+Create a binary tree with hard-coded input and then print its 
+pre-order, in-order, and post-order traversals.
+
+### Output:
+```
+Welcome to Tree Traversal!
+Below is the input order of a hard-coded tree and its calculated traversals:
+BST input order: 50, 75, 25, 15, 60, 35, 90, 42, 20, 27, 5, 55, 95, 80, 70
+
+pre-order: 50, 25, 15, 5, 20, 35, 27, 42, 75, 60, 55, 70, 90, 80, 95
+in-order: 5, 15, 20, 25, 27, 35, 42, 50, 55, 60, 70, 75, 80, 90, 95
+post-order: 5, 20, 15, 27, 42, 35, 25, 55, 70, 60, 80, 95, 90, 75, 50
+```
