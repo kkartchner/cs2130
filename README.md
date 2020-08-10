@@ -60,6 +60,7 @@ Exiting... Have a nice day!
 ## Program5 - Compound Propositions
 Prompts the user for a compound proposition composed of the variables p and q, 
 then prints the truth table for the compound proposition
+
 ### Example Output:
 ```
 Welcome to Compound Propositions!
@@ -134,9 +135,10 @@ a|b|c|d|e|(( c + ~d ) * b ) * ~( d + a * e )
 
 Exiting... Have a nice day!
 ```
-## Program6 - Permutations and Combinations
+## Program7 - Permutations and Combinations
 Prompts the user for n and r values and then computes and displays the
 combinations and permutations of the two.
+
 ### Example Output:
 ```
 Welcome to Permutations and Combinations!
@@ -160,6 +162,7 @@ Exiting... Have a nice day!
 ## Program8 - Monty Hall
 Simulates the Monty Hall 3 doors game and gives the percentage of wins
 for when the contestant switches vs. when they don't switch.
+
 ### Example Output:
 ```
 Welcome to the Monty Hall 3 Doors Game simulator!
@@ -171,9 +174,63 @@ Run another simulation? (y/n)? n
 
 Exiting... Have a nice day!
 ```
-## Program9 - Matrix Operations
+## Program9.1 - Properties of Relations
+Prints the calculated properties of several hard-coded matrices.
+### Output:
+```
+Welcome to Properties of Relations!
+
+Below are hard-coded matrices with their calculated properties:
+
+A: 0 1 1 1
+   0 0 1 1
+   0 0 0 1
+   0 0 0 0
+
+anti-reflexive, anti-symmetric, asymmetric
+--------------------
+B: 0 1 0 0
+   0 1 0 0
+   0 0 0 1
+   1 0 0 0
+
+anti-symmetric
+--------------------
+C: 0 1 0 1
+   1 0 1 0
+   0 1 0 1
+   1 0 1 0
+
+anti-reflexive, symmetric
+--------------------
+D: 1 1 0 1
+   1 1 1 0
+   0 1 1 1
+   1 0 1 1
+
+reflexive, symmetric
+--------------------
+E: 1 1 1 1
+   1 1 1 1
+   1 1 1 1
+   1 1 1 1
+
+reflexive, symmetric
+--------------------
+F: 0 0 0 0
+   0 0 0 0
+   0 0 0 0
+   0 0 0 0
+
+anti-reflexive, symmetric, anti-symmetric, asymmetric
+--------------------
+
+Exiting... Have a nice day!
+```
+## Program9.2 - Matrix Operations
 Prompt the user to select two of the four hard-coded matrices and
 to select whether to multiply or add the matrices together.
+
 ### Example Output:
 ```
 Welcome to Matrix Operations!

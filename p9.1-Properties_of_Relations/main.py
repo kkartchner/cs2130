@@ -5,7 +5,10 @@ from operator import add
 from matrices import matrices
 
 
-def main():
+def main() -> None:
+    """Prints the calculated properties of several hard-coded matrices.
+    """
+
     print("\nWelcome to Properties of Relations!\n")
     print("Below are hard-coded matrices with their calculated properties:\n")
 
